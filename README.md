@@ -14,7 +14,7 @@ Implémentez une fonction exportée dans `src/index.ts` avec la signature suivan
 Comportement (pour chaque étape i de 0 à nombre-1) :
 
 - calculez `n = debut + i` ;
-- si `n === 0` → valeur calculée = 0 et compter un zéro ;
+- si `n === 0` → valeur calculée = 0 ;
 - sinon si `n % 2 === 0` (pair) → valeur calculée = `n / 2` ;
 - sinon si `n % 3 === 0` → valeur calculée = `n * 2` ;
 - sinon → valeur calculée = `n + i` (utiliser l'indice i) ;
